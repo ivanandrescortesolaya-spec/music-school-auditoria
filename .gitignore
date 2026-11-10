@@ -1,0 +1,12 @@
+# Variables de entorno y secretos
+infra/.env
+api/.env
+api/.env.*
+!api/.env.example
+
+# Dependencias
+api/vendor/
+app/node_modules/
+
+# Archivos generados
+api/storage/*.key
